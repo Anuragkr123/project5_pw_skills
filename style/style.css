@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 59px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+.navbar-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-logo img{
+    width: 170px;
+    height: auto;
+    padding: 10px;
+    
+}
+.navbar-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 62px;
+}
+.navbar-items ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-items ul li{
+    justify-content: space-around;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px;
+}
+.navbar-items ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+    cursor: pointer;
+    color: black;
+  }
+  .navbar-items ul li a:hover{
+    background-color: #fff;
+    text-decoration: underline;
+    background-color: #5955b3;
+    padding: 7px 17px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+  }
+  .nav-button{
+    background-color: #5955b3;
+    padding: 14px 28px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: .4s;
+  }
+  .nav-button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  .banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .right-section-heading h1{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 74px;
+    color: #3c2f60;
+  }
+  .right-section-heading span{
+    color: #5955b3;
+  }
+  .dscription{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+  }
+  .right-section-heading p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .btns{
+    margin-top: 72px;
+  }
+ 
